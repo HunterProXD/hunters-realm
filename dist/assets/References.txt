@@ -1,0 +1,49 @@
+https://www.square-enix-games.com/en_EU/home
+https://unity.com
+https://roll20.net
+https://gamedevbeginner.com/how-to-move-objects-in-unity/
+ubisoft.com
+www.getimg.ai
+(random logo maker)
+realtimecolors.com
+
+<Font-families>
+@import url('https://fonts.googleapis.com/css?family=Trade%20Winds:700|Sometype%20Mono:400');
+
+body {
+  font-family: 'Sometype Mono';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Trade Winds';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+<Color Palette (dark)>
+--text: rgb(234, 222, 218);
+--background: rgb(19, 19, 19);
+--primary: rgb(64, 0, 113);
+--secondary: rgb(113, 64, 183);
+--accent: rgb(3, 0, 100);
+
+<Color Palette (light)>
+--text: rgb(36, 24, 20);
+--background: rgb(237, 237, 237);
+--primary: rgb(206, 143, 255);
+--secondary: rgb(123, 74, 191);
+--accent: rgb(156, 153, 255);

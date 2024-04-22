@@ -1,0 +1,91 @@
+.loginContainer {
+    width: 60vw;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid rgb(113, 64, 183);
+    border-radius: 25px;
+    background-color: rgb(3, 0, 100);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.loginContainer:last-of-type {
+    margin-bottom: 5vh;
+}
+
+h4 {
+    margin: 5px 0px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+i {
+    margin: 0;
+    text-align: center;}
+
+input, select, option {
+    border: 3px solid rgb(113, 64, 183);
+    background-color: rgb(64, 0, 113) !important;
+    width: 350px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+option {
+    text-align: center;
+}
+
+.permissions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.miscInfo {
+    text-align: center;
+    height: auto;
+}
+
+.miscInfo h2 {
+    margin: 0;
+}
+
+a {
+    text-align: end;
+    color: white;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    border: 3px solid rgb(113, 64, 183);
+    background-color: rgb(64, 0, 113) !important;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(113, 64, 183) !important;
+}
+
+.loginError p {
+    color: red;
+    display: none;
+}
+
+.deleteData {
+    display: flex;
+    justify-content: center;
+}

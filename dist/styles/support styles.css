@@ -1,0 +1,78 @@
+.support-layout {
+    margin: 15vh 15vw 0;
+    display: flex;
+    flex-direction: column;
+}
+.search-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgba(85, 67, 187, 0.541);
+    background: radial-gradient(circle, rgba(112,20,154,0.8) 9%, rgba(9,9,121,0.8) 48%, rgba(0,149,180,0.8) 100%);
+    border-radius: 15px 15px 25% 25%;
+}
+.search-bar {
+    height: 20%;
+    width: 30%;
+    font-size: 30px;
+    padding: 2px 5px;
+    margin-top: 1%;
+    margin-bottom: auto;
+    border: 5px solid rgba(193, 255, 99, 0.856);
+    background-color: rgba(116, 40, 40, 1);
+    border-radius: 10px;
+    color: lavender;
+    font-family: 'Black Ops One';
+}
+.search-bar::placeholder {
+    text-align: center;
+    font-size: 1.369rem;
+    color: rgba(160, 111, 250, 0.76);
+}
+.search-div header {
+    margin-top: 3%;
+    font-size: 40px;
+    color: honeydew;
+}
+.common-questions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    margin: 8% 3%;
+}
+.common-questions div {
+    width: 18%;
+}
+
+.common-questions div img {
+    border: 2px solid white;
+    width: 100%;
+}
+.common-questions #cimg:hover {
+    scale: 1.1;
+}
+.all-questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 5%;
+    padding: 2vh 0;
+    background-color: aquamarine;
+    border-radius: 5px 30px;
+}
+.all-questions div {
+    width: 10%;
+}
+.all-questions div img {
+    width: 100%;
+    margin: 4% 0;
+}
+.all-questions div img:hover {
+    scale: 1.1;
+}

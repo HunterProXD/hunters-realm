@@ -1,0 +1,79 @@
+#viewAccount .settingsInsideInputs {
+    font-size: 25px;
+    padding: 3px;
+    color: rgb(234, 222, 218);
+    border: 3px solid rgb(113, 64, 183);
+    background-color: rgb(64, 0, 113);
+    font-family: 'Sometype Mono';
+    font-weight: 400;
+    transform: translateY(-30px);
+}
+
+#viewAccount .settingsInsideInputs:last-child {
+    margin-bottom: 30px;
+}
+
+.settings-view #viewAccount {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.settings-view #viewConnections {
+    display: none;
+}
+.settings-view #viewPrivacy {
+    display: none;
+}
+.settings-view #viewOrderHistory {
+    display: none;
+}
+.settings-view #viewRedeemCode {
+    display: none;
+}
+.settings-view #viewActivity {
+    display: none;
+}
+
+
+.view ::-webkit-scrollbar {
+    width: 5px;
+}
+.view ::-webkit-scrollbar-track {
+    background-color: aqua;
+}
+.view ::-webkit-scrollbar-thumb {
+    background-color: aqua;
+}
+
+h5 {
+    width: 125px;
+    margin: 0 10px 0 0;
+}
+
+p {
+    width: 175px;
+    text-align: start;
+}
+
+.accountsLink {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linkButton {
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+    justify-self: end;
+    margin-left: 10px;
+    background-color: rgb(19, 19, 19, 0.3);
+    color: white;
+    border: 3px solid rgb(113, 64, 183);
+}
+
+.linkButton:hover {
+    cursor: pointer;
+    background-color: rgb(64, 0, 113);
+}

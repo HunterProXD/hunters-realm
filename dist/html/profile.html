@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/profile styles.css">
+    <link rel="stylesheet" href="../styles/settings view.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono&family=Trade+Winds&display=swap" rel="stylesheet">
+    <title>Profile</title>
+</head>
+<body>
+    
+     <!--Navigation Bar-->
+     <nav>
+        <div class="nav-list">
+            <a href="index.html" id="logo-icon"><img class="logo-icon" src="../assets/Logo.png" alt="HUNTER'S REALM"></a><!--Company Logo-->
+            <div class="nav-list-main" id="navListMain"> <!--Games, Store and Support buttons-->
+                <a class="news-nav-list-fix games list-hover">GAMES</a>
+                    <div class="games-list hidden-list">
+                        <a href="../Games Folder/Arctic Ears.html">Arctic Ears</a>
+                        <a>Coming Soon</a>
+                        <a>Coming Soon</a>
+                    </div>
+                <a href="store.html" class="news-nav-list-fix store list-hover">STORE</a>
+                <a href="support.html" class="news-nav-list-fix support list-hover">SUPPORT</a>
+            </div>
+            <button class="phoneBar" id="phoneBar">Click</button>
+            <div class="navListSub" id="navListSub">
+                <a class="news-nav-list-fix games list-hover" id="btnSubGames">GAMES</a>
+                <div class="games-list hidden-list" id="navListSubDrop">
+                    <a href="../Games Folder/Arctic Ears.html">Arctic Ears</a>
+                    <a>Coming Soon</a>
+                    <a>Coming Soon</a>
+                </div>
+            <a href="store.html" class="news-nav-list-fix store list-hover">STORE</a>
+            <a href="support.html" class="news-nav-list-fix support list-hover">SUPPORT</a>
+            </div>
+            <div class="nav-part2">
+                <a href="" class="cart-icon"><img src="../assets/263142.png" alt="cart"></a>
+                <span class="nav-list-profile"> <!--Profile (and cart) buttons-->
+                    <a href="profile.html" class="news-nav-list-fix"><img src="https://static.vecteezy.com/system/resources/previews/020/765/399/non_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg" name="profile" alt=""><i>Insert-Name</i></a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!--^^Navigation Bar^^-->
+
+    <div class="whole-box"> <!--Profile Settings contents-->
+        <div class="general-info"> <!--General info-->
+            <img src="https://static.vecteezy.com/system/resources/previews/020/765/399/non_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg" alt="">
+            <h1><i>Insert-Name</i></h1>
+            <h2>Time played: 200h</h2>
+        </div>
+        <div class="settings-container"> <!--Settings-->
+            <div class="settings-flex"> <!--Selection tab-->
+                <button id="Account" class="settings-buttons">
+                    <p>Account</p>
+                </button>
+                <button id="Connections" class="settings-buttons">
+                    <p>Connections</p>
+                </button>
+                <button id="Privacy" class="settings-buttons">
+                    <p>Privacy</p>
+                </button>
+                <button id="Order History" class="settings-buttons">
+                    <p>Order History</p>
+                </button>
+                <button id="Redeem Code" class="settings-buttons">
+                    <p>Redeem Code</p>
+                </button>
+                <button id="Activity" class="settings-buttons">
+                    <p>Activity</p>
+                </button>
+                <button id="Logout" class="settings-buttons">
+                    <p>Logout</p>
+                </button>
+                <button id="AdminPanel" class="settings-buttons">
+                    <p>Admin Panel</p>
+                </button>
+            </div>
+            <div class="settings-view"> <!--A box to display all different settings-->
+                <div id="viewAccount" class="view"> <!--Account Settings-->
+                    <div class="settingsInside">
+                        <h4>Username</h4>
+                        <input type="text" name="username" class="settingsInsideInputs" id="inputUsername" required>
+                        <h4>First Name</h4>
+                        <input type="text" name="firstName" class="settingsInsideInputs" id="inputFirstName" >
+                        <h4>Last Name</h4>
+                        <input type="text" name="lastName" class="settingsInsideInputs" id="inputLastName" >
+                        <h4>Country / Region</h4>
+                        <select name="country-region" id="countryRegion" class="settingsInsideInputs" required>
+                            <option value="greatBritain">Great Britain</option>
+                            <option value="unitedStates">United States</option>
+                            <option value="lithuania">Lithuania</option>
+                        </select>
+                        <h4>Preferred Language</h4>
+                        <select name="preferredLanguage" class="settingsInsideInputs" id="preferredLanguage"  required>
+                            <option value="english">English</option>
+                            <option value="french">Français</option>
+                            <option value="german">Deutsch</option>
+                            <option value="italian">Italiano</option>
+                        </select>
+                        <h4>Password</h4>
+                        <input type="password" name="password" class="settingsInsideInputs" id="inputPassword" required>
+                        <h4>Email Preferences</h4>
+                        <input type="email" name="email" class="settingsInsideInputs" id="inputEmail" required>
+                        <p class="settingsInsideInputs" id="emailCheck" style="font-size: 18px;"><input type="checkbox" width="60px"> Do you want to receive regular news to your email?</p> 
+                        
+                    </div>
+                </div> 
+                <div id="viewConnections" class="view"> <!--Connections Settings-->
+                    <div class="settingsInside">
+                        <h4><u>Linked Accounts</u></h4>
+                        <div class="accountsLink">
+                            <h5>Steam:</h5> <p>Unlinked</p>
+                            <button class="linkButton" id="steamLink">Connect</button>
+                        </div>
+                        <div class="accountsLink">
+                            <h5>Google:</h5> <p>Unlinked</p>
+                            <button class="linkButton" id="googleLink">Connect</button>
+                        </div>
+                        <div class="accountsLink">
+                            <h5>Facebook:</h5> <p>Unlinked</p>
+                            <button class="linkButton" id="facebookLink">Connect</button>
+                        </div>
+                        <div class="accountsLink">
+                            <h5>X :</h5> <p>Unlinked</p>
+                            <button class="linkButton" id="xLink">Connect</button>
+                        </div>
+                    </div>
+                </div> 
+                <div id="viewPrivacy" class="view"> <!--Privacy Settings-->
+                    <div class="comingSoon">
+                        <h4>Coming Soon</h4>
+                    </div>
+                </div> 
+                <div id="viewOrderHistory" class="view"> <!--Order History Settings-->
+                    <div class="orderListLabels">
+                        <h2 class="orderName">Order Name</h2>
+                        <h2 class="transactionDate">Transaction date</h2>
+                        <h2 class="cost">Cost</h2>
+                    </div>
+                    <div class="orderList">
+                        <hr>
+                        <order id="1">
+                            <h3 class="orderName">Placeholder order name</h3>
+                            <h3 class="transactionDate">2024-12-11</h3>
+                            <h3 class="cost">300Eur</h3>
+                        </order>
+                        <hr>
+                        <order id="2">
+                            <h3 class="orderName">Placeholder order name</h3>
+                            <h3 class="transactionDate">2024-12-11</h3>
+                            <h3 class="cost">300Eur</h3>
+                        </order>
+                        <hr>
+                    </div>
+                </div> 
+                <div id="viewRedeemCode" class="view"> <!--Redeem Code Settings-->
+                    <div class="comingSoon">
+                        <h4>Coming Soon</h4>
+                    </div>
+                </div> 
+                <div id="viewActivity" class="view"> <!--Activity Settings-->
+                    <div class="comingSoon">
+                        <h4>Coming Soon</h4>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="/src/javaScript/settingsChange.js"></script>
+    <script src="/src/javaScript/script.js"></script> -->
+</body>
+<script src="/dist/Settings.js"></script>
+</html>

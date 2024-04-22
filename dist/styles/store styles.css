@@ -1,0 +1,124 @@
+html, body {
+    color: white;
+}
+
+.store-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.store-layout {
+    display: flex;
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    justify-content: center;
+    gap: 3vw;
+}
+
+/*Items*/
+
+.store-items {
+    border: 2px solid white;
+    width: 400px;
+    height: auto;
+}
+header {
+    text-align: center;
+    margin-top: 13%;
+}
+.store-layout img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 80%;
+}
+.store-layout p {
+    border: 2px solid white;
+    font-size: 12px;
+    width: 80%;
+}
+.store-layout .price {
+    text-align: center;
+    font-size: 17px;
+    width: 60%;
+    padding: 10px 5px;
+}
+.item-misc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.store-desc {
+    padding: 5px;
+    background-color: rgb(3, 0, 100);
+}
+.price-misc {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    padding: 0px 10px;
+}
+.price-misc p {
+    border: none !important;
+}
+.price-misc div {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+}
+.price-misc div div {
+    flex-direction: column;
+    font-size: 5px;
+    white-space: nowrap;
+}
+
+.price-misc div div p {
+    margin: 0;
+    margin-left: 5px;
+}
+
+/*Buttons*/
+
+.purchase-buttons {
+    margin: 5%;
+    border: none;
+    display: flex;
+    gap: 10px;
+}
+.purchase-buttons button {
+    padding: 5px 10px;
+    font-weight: 800;
+    color: rgb(234, 222, 218);
+    cursor: pointer;
+}
+.purchase-buttons .to-cart-button {
+    background-color: rgb(64, 0, 113);
+    border: none;
+    font-size: 16px;
+}
+.purchase-buttons .to-cart-button:hover {
+    background-color: rgb(113, 64, 183);
+}
+.purchase-buttons .to-cart-button:active {
+    background-color: rgb(64, 0, 113);
+}
+embed {
+    display: none;
+}
+.purchase-buttons .buy-button {
+    background-color: rgb(206, 143, 255);
+    border: none;
+    font-size: 16px;
+}
+.purchase-buttons .buy-button:hover {
+    background-color: rgb(123, 74, 191);
+}
+.purchase-buttons .buy-button:active {
+    background-color: rgb(206, 143, 255);
+}
